@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+<body style="background-image:linear-gradient(rgba(5,7,12,0.75),rgba(5,7,12,0.75)),url(https://s1.1zoom.me/b5050/209/362488-commander06_3840x2400.jpg);background-size: cover;">
+    
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark" style="position:relative;">
+        <div class="container">
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNav" >
+
+            
+            <ul class="navbar-nav">
+
+                <li class="nav-item">
+                    <a href="detail.html"class="nav-link"style="position:absolute; top: 8px; left: 2%;">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="create.html"class="nav-link">Añadir nuevo pago</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" style="position:absolute; top: 8px; right: 8%;">Username</a>
+                    <a href="index.html"class="nav-link"style="position:absolute; top: 8px;; right:0;">Cerrar Sesion</a>
+                </li>
+                
+            
+            </ul>
+
+          </div>
+        </div>
+    </nav>
+    
+
+    <section class="col-md-4  offset-md-4 mt-5">
+        <div class="form-group card card-body" style="background-color: #b4cbcf;">
+            <form action="detail.html" class="formu" method="post">
+                <h3 class="formu">Añadir nuevo pago</h3>
+                <br>
+                <div class ="md-3 ">
+                    <input type="text" class="formu_input" placeholder="Fecha de vencimiento"size="50">
+                    <label for="" class="formu_label"></label>
+                </div>
+                <br>
+                <div class ="md-3">
+                    <input type="text" class="formu_input" placeholder="Servicios"size="50">
+                    <label for="" class="formu_label"></label>
+                </div>
+                <br>
+                <div class ="col-md-3">
+                    <input type="text" class="formu_input" placeholder="Monto"size="50">
+                    <label for="" class="formu_label"></label>
+                </div>
+                <div style="text-align: right;">
+                    <button class="btn btn-primary" >Añadir</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    
+    <script src="index.js"></script>
+</body>
+</html>
